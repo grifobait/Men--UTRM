@@ -1,2 +1,65 @@
-# Men--UTRM
-mi menú 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTRM</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            margin: 2rem;
+            background-color: #000;
+            color: #FFD700;
+            text-align: center;
+        }
+        h1 {
+            color: #FFD700;
+        }
+        .dish {
+            margin-bottom: 2rem;
+        }
+        .dish h2 {
+            color: #FFD700;
+            margin-bottom: 0.5rem;
+        }
+        .dish p {
+            margin: 0;
+        }
+        .qr {
+            margin-top: 3rem;
+        }
+        .qr img {
+            width: 200px;
+            height: 200px;
+        }
+        .qr p {
+            margin-top: 1rem;
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <h1>UTRM</h1>
+
+    <div class="dish">
+        <h2>• Empanadas primaverales</h2>
+        <p>Empanadas argentinas con masa de hojaldre y rellenas.</p>
+    </div>
+
+    <div class="dish">
+        <h2>• Crema de champiñones con ñoquis</h2>
+        <p>Clásica crema de champiñón con un añadido de ñoquis clásicos de la cocina italiana.</p>
+    </div>
+
+    <div class="dish">
+        <h2>• Pechuga de pollo mariné potato</h2>
+        <p>Pechuga de pollo marinada y sellada para pasarla por el horno y acompañada con un puré de papa clásico.</p>
+    </div>
+
+    <div class="qr">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://mi-menu-utrm.com" alt="QR del menú">
+        <p>Escanea este código QR para ver mi menú</p>
+    </div>
+</body>
+</html>
